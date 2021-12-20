@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGAA;;;;GAIG;AEJH;;;;GAIG;AA0BH;;;;GAIG;AAgCH;;;;GAIG;AAoBH;;;;GAIG",
+    "sources": [
+        "index.scss",
+        "_core.scss",
+        "_arrows.scss",
+        "_background.scss",
+        "_buttons.scss",
+        "_breakpoints.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

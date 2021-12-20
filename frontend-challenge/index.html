@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="scripts/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <title>Front-End Challenge</title>
+</head>
+<body>
+  <!-- start-header -->
+  <header class="header" data-component="header">
+    <div class="wrapper">
+    <div class="container">
+      <div class="header__body">
+        <div class="header__logo">
+          <a href="#" class="logo">
+            <img src="images/fuerza-studio-logo.png">
+          </a>
+        </div>
+          <nav>
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+              <ul class="links">
+                <li><a href="#" class="principal-menu">A Empresa</a></li>
+                <li>
+                  <a href="#" class="desktop-link principal-menu">Serviços</a>
+                  <input type="checkbox" id="show-services">
+                  <label for="show-services">Serviços</label>
+                  <ul>
+                    <li><a href="#">Nossos Serviços 01</a></li>
+                    <hr>
+                    <li>
+                      <a href="#" class="desktop-link">Nossos Serviços 02</a>
+                      <input type="checkbox" id="show-items">
+                      <label for="show-items">Nossos Serviços 02</label>
+                      <hr>
+                      <ul>
+                        <li><a href="#">Sub Nossos Serviços 01</a></li>
+                        <hr>
+                        <li><a href="#">Sub Nossos Serviços 02</a></li>
+                        <hr>
+                        <li><a href="#">Sub Nossos Serviços 03</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Nossos Serviços 03</a></li>
+                  </ul>
+                </li>
+                <li><a href="#" class="principal-menu">Equipe</a></li>
+                <li><a href="#" class="principal-menu">Galeria</a></li>
+                <li><a href="#" class="principal-menu">Fale Conosco</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+  </header>
+  <!-- /end-header -->
+
+  <!-- start-hero -->
+  <!-- Slider main container -->
+  <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <img src="images/background1-slider.png">
+      <div class="indoor-slider">
+        <div class="title-slider">Lorem Ipsum is simply dummy!</div>
+        <div class="content-slider">Lorem Ipsum has been the industry’s standard dummy text ever since the<br>1500s, when an unknown printer took a galley of type and scrambled it<br>to make a type specimen book. It has survived not only five</div>
+        <button class="button button0">BUTTON  <img src="images/Icon-feather-arrow-right.svg"></button>
+      </div>
+    </div>
+    ...
+  </div>
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+  </div>
+  <!-- /end-hero -->
+
+  <!-- start-short-content -->
+  <section class="short-content">
+    <div class="container">
+      <div class="card-short-content">
+        <figure class="card-short-content__figure">
+          <img src="images/awesome-futbol.svg" alt="" />
+        </figure>
+        <div class="card-short-content__inner">
+          <h3 class="card-short-content__title">Lorem Ipsum is simply dummy!</h3>
+          <div class="the-content">
+            <p>Lorem Ipsum has been the industry’s<br>standard dummy text ever since the 1500s,<br>when an unknown printer took</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-short-content">
+        <figure class="card-short-content__figure">
+          <img src="images/awesome-flash.svg" alt="" />
+        </figure>
+        <div class="card-short-content__inner">
+          <h3 class="card-short-content__title">Nam tortor quaeget</h3>
+          <div class="the-content">
+            <p>Lorem Ipsum has been the industry’s<br>standard dummy text ever since</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-short-content">
+        <figure class="card-short-content__figure">
+          <img src="images/awesome-steam.svg" alt="" />
+        </figure>
+        <div class="card-short-content__inner">
+          <h3 class="card-short-content__title">Maecenas vehicula tincidunt</h3>
+          <div class="the-content">
+            <p>Lorem Ipsum has been the industry’s<br>standard dummy text ever since the 1500s,<br>when an unknown printer took</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /end-short-content -->
+
+  <!-- start-blog -->
+  <section class="blog">
+    <div class="container">
+        <div class="card-short-content-blog">
+          <figure class="card-short-content-blog__figure">
+            <img src="images/image-blog.png" alt="" />
+          </figure>
+          <div class="card-short-content-blog__inner">
+            <div class="card-short-content-blog__category">
+            <button class="button-blog">CATEGORY</button>
+            <p2>02/12/2021</p2>
+          </div>
+            <h3 class="card-short-content-blog__title">Lorem Ipsum is simply dummy!</h3>
+            <div class="the-content">
+              <p>Lorem Ipsum has been the industry’s<br>standard dummy text ever since the 1500s,<br>when an unknown printer took</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-short-content-blog">
+          <figure class="card-short-content-blog__figure">
+            <img src="images/image-blog2.png" alt="" />
+          </figure>
+          <div class="card-short-content-blog__inner">
+            <div class="card-short-content-blog__category">
+            <button class="button-blog">CATEGORY</button>
+            <p2>02/12/2021</p2>
+            </div>
+            <h3 class="card-short-content-blog__title">Lorem Ipsum is simply dummy!</h3>
+            <div class="the-content">
+              <p>Lorem Ipsum has been the industry’s<br>standard dummy text ever since the 1500s,<br>when an unknown printer took</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-short-content-blog">
+          <figure class="card-short-content-blog__figure">
+            <img src="images/image-blog3.png" alt="" />
+          </figure>
+          <div class="card-short-content-blog__inner">
+            <div class="card-short-content-blog__category">
+            <button class="button-blog">CATEGORY</button>
+            <p2>02/12/2021</p2>
+            </div>
+            <h3 class="card-short-content-blog__title">Lorem Ipsum is simply dummy!</h3>
+            <div class="the-content">
+              <p>Lorem Ipsum has been the industry’s<br>standard dummy text ever since the 1500s,<br>when an unknown printer took</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!-- /end-blog -->
+  
+  <!-- start-cta -->
+  <div class="cta">
+    <div class="cta__indoor">
+      <div class="cta__indoor-text">
+        <p3 class="cta__title">Lorem Ipsum is simply dummy!</p3>
+         <div class="cta__content">
+         <p3>Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when<br>an unknown printer took a galley of type and scrambled it to make a type specimen</p3>
+         </div>
+      </div>
+      <button class="button button1">BUTTON <img src="images/Icon-feather-arrow-right.svg"></button>
+    </div>
+  </div>
+  <!-- /end-cta -->
+  
+  <!-- start-footer -->
+  <footer class="footer">
+    <div class="footer__indoor">
+    <div class="footer__text">
+      <p3>Todos os direitos reservados</p3>
+    </div>
+    <img src="images/icon-footer.svg">
+  </div>
+  </footer>
+  <!-- /end-footer -->
+</body>
+
+  <!-- start-scripts -->
+<!-- <script src="scripts/main.js"></script> -->
+</html>

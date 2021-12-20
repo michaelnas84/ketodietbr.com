@@ -1,0 +1,106 @@
+# Translation of Plugins - CF7 to Webhook - Development (trunk) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - CF7 to Webhook - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-02-17 12:43:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - CF7 to Webhook - Development (trunk)\n"
+
+#: modules/cf7/admin/webhook-panel-html.php:138
+msgid "Data sent to Webhook"
+msgstr "Dados enviados para o Webhook"
+
+#: modules/cf7/admin/webhook-panel-html.php:109
+msgctxt "The URL should point to CF7 documentation (someday it can be translated)."
+msgid "You can add <a href=\"https://contactform7.com/special-mail-tags/\" target=\"_blank\">Special Mail Tags</a> to the data sent to webhook."
+msgstr "Você pode adicionar <a href=\"https://contactform7.com/special-mail-tags/\" target=\"_blank\">Special Mail Tags</a> para os dados enviados para o Webhook."
+
+#: modules/cf7/admin/webhook-panel-html.php:60
+msgid "Send to Webhook"
+msgstr "Enviar para o Webhook"
+
+#: modules/cf7/admin/webhook-panel-html.php:45
+msgid "To integrate you should insert your webhook URL below. For example, into Zapier you can create a trigger using \"Webhooks\" app and choose \"Catch Hook\" option."
+msgstr "Para integrar, você deve adicionar a URL do webhoook abaixo. Por exemplo, no Zapier, você pode criar um gatilho (trigger) escolhendo o app \"Webhooks\" e a opção \"Catch Hook\"."
+
+#: modules/cf7/class-module-cf7.php:109
+#: modules/cf7/admin/webhook-panel-html.php:38
+msgid "Webhook"
+msgstr "Webhook"
+
+#. Author of the plugin
+msgid "Mário Valney, Vizir Software Studio"
+msgstr "Mário Valney, Vizir Software Studio"
+
+#. Plugin Name of the plugin
+msgid "CF7 to Webhook"
+msgstr "CF7 to Webhook"
+
+#: modules/cf7/admin/webhook-panel-html.php:130
+msgid "Or add a second word to pass as key to Webhook: %s"
+msgstr "Ou adicione uma segunda palavra para enviá-la como nome do campo para o Webhook: %s"
+
+#: modules/cf7/admin/webhook-panel-html.php:123
+msgid "Insert Special Tags like in mail body: %s"
+msgstr "Insira as Special Tags como no corpo do e-mail: %s"
+
+#: modules/cf7/admin/webhook-panel-html.php:104
+msgid "Special Mail Tags"
+msgstr "Special Mail Tags"
+
+#. Author URI of the plugin
+msgid "http://vizir.com.br/en"
+msgstr "http://vizir.com.br"
+
+#. Description of the plugin
+msgid "Use Contact Form 7 as a trigger to Zapier!"
+msgstr "Use o Contact Form 7 como um trigger (gatilho) para o Zapier!"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/Vizir/cf7-to-zapier"
+msgstr "https://github.com/Vizir/cf7-to-zapier"
+
+#: modules/cf7/class-module-cf7.php:97
+msgid "Do it now?"
+msgstr "Fazer isso agora?"
+
+#: modules/cf7/class-module-cf7.php:83
+msgid "You need to install/activate %s Contact Form 7%s plugin to use %s CF7 to Webhook %s"
+msgstr "Você precisa instalar/ativar o plugin %s Contact Form 7%s para usar o %s CF7 to Webhook %s"
+
+#: modules/cf7/admin/webhook-panel-html.php:176
+msgid "You can add URL parameters into form using this shortcode: %s."
+msgstr "Você pode usar parâmetros da URL no formulário usando o shortcode: %s."
+
+#: modules/cf7/admin/webhook-panel-html.php:141
+msgid "We will send your form data as below:"
+msgstr "Enviaremos os dados do seu formulário assim:"
+
+#: modules/cf7/admin/webhook-panel-html.php:94
+msgid "Send CF7 mail as usually"
+msgstr "Enviar o e-mail do CF7 normalmente"
+
+#: modules/cf7/admin/webhook-panel-html.php:87
+msgid "Send Mail"
+msgstr "Enviar E-mail"
+
+#: modules/cf7/admin/webhook-panel-html.php:79
+msgid "You should insert webhook URL here to finish configuration."
+msgstr "Você precisa inserir a URL do webhook aqui, para finalizar a configuração."
+
+#: modules/cf7/admin/webhook-panel-html.php:68
+msgid "Webhook URL"
+msgstr "URL do Webhook"
+
+#: modules/cf7/admin/webhook-panel-html.php:53
+msgid "Integrate"
+msgstr "Integrar"
+
+#: modules/cf7/admin/webhook-panel-html.php:43
+msgid "In these options you can activate or deactivate Webhook integration."
+msgstr "Nessas opções você pode ativer ou desativar a integração com o Webhook."
